@@ -1,0 +1,25 @@
+{
+  "name": "assets",
+  "private": true,
+  "version": "1.0.0",
+  "description": "## Content",
+  "main": "index.js",
+  "scripts": {
+    "gh-pages_push": "git subtree --prefix gh-pages push origin gh-pages",
+    "gh-pages_pull": "git subtree --prefix gh-pages pull origin gh-pages",
+    "pull": "git pull origin master && npm run gh-pages_pull",
+    "push": "git push origin master && npm run gh-pages_push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/be-media/assets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/be-media/assets/issues"
+  },
+  "homepage": "https://github.com/be-media/assets#readme"
+}
